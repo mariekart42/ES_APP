@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Deadline" representedClassName="Deadline" syncable="YES" codeGenerationType="class">
+        <attribute name="calenderWeek" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="changeDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deadlineDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="esSymbol" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="occasion" optional="YES" attributeType="String"/>
+        <attribute name="occasionText" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="File" representedClassName="File" syncable="YES" codeGenerationType="class">
+        <attribute name="applicant" optional="YES" attributeType="String"/>
+        <attribute name="brandClass" optional="YES" attributeType="String"/>
+        <attribute name="caseStatus" optional="YES" attributeType="String"/>
+        <attribute name="changeDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="clientSymbol" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="currentState" optional="YES" attributeType="String"/>
+        <attribute name="entryDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="entryNb" optional="YES" attributeType="String"/>
+        <attribute name="familySymbol" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="issueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="issueNb" optional="YES" attributeType="String"/>
+        <attribute name="matterType" optional="YES" attributeType="String"/>
+        <attribute name="onlineRegister" optional="YES" attributeType="URI"/>
+        <attribute name="publishDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="publishNb" optional="YES" attributeType="String"/>
+        <attribute name="registrationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="registrationNb" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="family" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FileFamily" inverseName="associatedFiles" inverseEntity="FileFamily"/>
+        <relationship name="inventors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StringCD" inverseName="file1" inverseEntity="StringCD"/>
+        <relationship name="productClasses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StringCD" inverseName="file2" inverseEntity="StringCD"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StringCD" inverseName="file3" inverseEntity="StringCD"/>
+    </entity>
+    <entity name="FileFamily" representedClassName="FileFamily" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="matterType" optional="YES" attributeType="String"/>
+        <attribute name="registrationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="associatedFiles" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="File" inverseName="family" inverseEntity="File"/>
+        <relationship name="countries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="StringCD" inverseName="family1" inverseEntity="StringCD"/>
+    </entity>
+    <entity name="StringCD" representedClassName="StringCD" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="family1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FileFamily" inverseName="countries" inverseEntity="FileFamily"/>
+        <relationship name="file1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="File" inverseName="inventors" inverseEntity="File"/>
+        <relationship name="file2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="File" inverseName="productClasses" inverseEntity="File"/>
+        <relationship name="file3" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="File" inverseName="products" inverseEntity="File"/>
+    </entity>
+    <elements>
+        <element name="Deadline" positionX="-45" positionY="135" width="128" height="179"/>
+        <element name="File" positionX="-63" positionY="-18" width="128" height="419"/>
+        <element name="FileFamily" positionX="-54" positionY="126" width="128" height="119"/>
+        <element name="StringCD" positionX="-63" positionY="117" width="128" height="104"/>
+    </elements>
+</model>

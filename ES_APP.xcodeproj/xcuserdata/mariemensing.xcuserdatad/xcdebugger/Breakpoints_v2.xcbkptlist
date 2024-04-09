@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DC3AEB96-EA47-4EAD-AC70-3846A6433601"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E2A6809-AFEE-4E7F-9A11-4996BFEB896D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "login(credentials:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9E2A6809-AFEE-4E7F-9A11-4996BFEB896D - 20be346164647b83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.APIService.login(credentials: ES_APP.Credentials, completion: (Swift.Result&lt;Swift.Bool, ES_APP.Authentication.AuthenticationError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/EM6211-01DE/ES_APP/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "9E2A6809-AFEE-4E7F-9A11-4996BFEB896D - d9ae87b48944153c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in ES_APP.APIService.login(credentials: ES_APP.Credentials, completion: (Swift.Result&lt;Swift.Bool, ES_APP.Authentication.AuthenticationError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/EM6211-01DE/ES_APP/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F3BB977-2A67-4F75-B392-50C4FBEC4F69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "login(credentials:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEE5F6C8-B479-47C7-A646-D95EC417693F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "LoginViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CEE5F6C8-B479-47C7-A646-D95EC417693F - f1b6c28bd29980e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.deinit"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "CEE5F6C8-B479-47C7-A646-D95EC417693F - 923c14d40ed15b9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.__deallocating_deinit"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "CEE5F6C8-B479-47C7-A646-D95EC417693F - 456fb7b3aa93f7ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.__allocating_init() -&gt; ES_APP.LoginViewModel"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "CEE5F6C8-B479-47C7-A646-D95EC417693F - 6219bd359e79667b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.init() -&gt; ES_APP.LoginViewModel"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "LoginViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - 84607f203bf77453"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ES_APP.LoginViewModel.credentials : ES_APP.Credentials"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - 499a3f138364aa79"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.credentials.getter : ES_APP.Credentials"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - d89a431712219265"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.credentials.setter : ES_APP.Credentials"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - 26d7def5d2836c7a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.credentials.modify : ES_APP.Credentials"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - c2844c25f37dea65"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.credentials.modify : ES_APP.Credentials with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - 5b71591b86002f1c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.$credentials.getter : Combine.Published&lt;ES_APP.Credentials&gt;.Publisher"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - ebf81d501c63b308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.$credentials.setter : Combine.Published&lt;ES_APP.Credentials&gt;.Publisher"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - a89fa05101e68f73"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.$credentials.modify : Combine.Published&lt;ES_APP.Credentials&gt;.Publisher"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - 60ac205707ac365b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.$credentials.modify : Combine.Published&lt;ES_APP.Credentials&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "A66D6F3A-FEDE-40D9-8B39-80EEE066BD74 - 6219bd359e79667b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.init() -&gt; ES_APP.LoginViewModel"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/LoginViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "LoginViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - dd243028beba0607"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ES_APP.LoginViewModel.showProgressView : Swift.Bool"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - b1609c748da9bbed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.showProgressView.getter : Swift.Bool"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - 1955f4d148543d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.showProgressView.setter : Swift.Bool"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - e9e4627f14845e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.showProgressView.modify : Swift.Bool"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - 9cfb07400508e3d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.showProgressView.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - 52485f86874e6cb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.$showProgressView.getter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - 36f8f002ea9850be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.$showProgressView.setter : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - e40b6e3f73ef3686"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.$showProgressView.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - a7d3317491cc648a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.$showProgressView.modify : Combine.Published&lt;Swift.Bool&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "B871538C-D4C5-4B16-A4DF-348A2003CBC1 - 6219bd359e79665a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ES_APP.LoginViewModel.init() -&gt; ES_APP.LoginViewModel"
+                  moduleName = "ES_APP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mariemensing/Desktop/CODE/ES_APP/ES_APP/LoginViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47AE4CAC-EA15-40AC-98B7-FDFAAE508E5F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/FileNS.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "fetchLogo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "198D39C1-4619-4F1B-8366-1A10A14BCE7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/DataViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "updateFiles(context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "073A783F-0591-43E9-81EE-FCAED83029B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/FileNS.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "fetchFileData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AA6994F-80AD-419B-9CBB-32EFF1158B95"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "login(credentials:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E57A32D0-554C-4065-9E96-5AFA02846C97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ES_APP/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "login(credentials:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

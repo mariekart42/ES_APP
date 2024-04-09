@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DeadlineCD" representedClassName="DeadlineCD" syncable="YES" codeGenerationType="class">
+        <attribute name="calenderWeek" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="deadlineDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="esSymbol" optional="YES" attributeType="String"/>
+        <attribute name="occasion" optional="YES" attributeType="String"/>
+        <attribute name="occasionText" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FileCD" representedClassName="FileCD" syncable="YES" codeGenerationType="class">
+        <attribute name="applicant" optional="YES" attributeType="String"/>
+        <attribute name="brandType" optional="YES" attributeType="String"/>
+        <attribute name="caseStatus" optional="YES" attributeType="String"/>
+        <attribute name="clientSymbol" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="currentState" optional="YES" attributeType="String"/>
+        <attribute name="familySymbol" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="inventors" optional="YES" attributeType="String"/>
+        <attribute name="issueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="issueDateString" optional="YES" attributeType="String"/>
+        <attribute name="issueNb" optional="YES" attributeType="String"/>
+        <attribute name="matterType" optional="YES" attributeType="String"/>
+        <attribute name="onlineRegister" optional="YES" attributeType="URI"/>
+        <attribute name="publishNb" optional="YES" attributeType="String"/>
+        <attribute name="registrationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="registrationNb" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FileFamilyCD" representedClassName="FileFamilyCD" syncable="YES" codeGenerationType="class">
+        <attribute name="associatedFiles" optional="YES" attributeType="String"/>
+        <attribute name="countries" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="matterType" optional="YES" attributeType="String"/>
+        <attribute name="registrationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="DeadlineCD" positionX="-45" positionY="135" width="128" height="134"/>
+        <element name="FileCD" positionX="-63" positionY="-18" width="128" height="299"/>
+        <element name="FileFamilyCD" positionX="-54" positionY="126" width="128" height="119"/>
+    </elements>
+</model>
