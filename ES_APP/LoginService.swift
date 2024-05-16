@@ -25,8 +25,8 @@ class LoginService {
     }
     
     
-    static func getBase64LoginString(username: String, password: String) -> String {
-        let loginString = username + ":" + password
+    static func getBase64LoginString(username: String, firm: String, password: String) -> String {
+        let loginString = username + "@" + firm + ":" + password
         let loginData = loginString.data(using: String.Encoding.utf8)!
         return loginData.base64EncodedString()
     }

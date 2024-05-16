@@ -96,7 +96,7 @@ class Authentication: ObservableObject {
     }
     
     func requestBiometricUnlockNoCredentials(completion: @escaping (Result<Credentials, AuthenticationError>) -> Void) {
-        let credentials = Credentials(email: "", password: "", firm: "")
+        var credentials = Credentials(username: "", password: "", firm: "")
         let context = LAContext()
         var error: NSError?
         let canEvaluate = context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error)
@@ -132,8 +132,8 @@ class Authentication: ObservableObject {
     
     func requestBiometricUnlock(completion: @escaping (Result<Credentials, AuthenticationError>) -> Void) {
 
-        let credentials = KeychainStorage.getCredentials()
-        guard let credentials = credentials else {
+        var credentials = KeychainStorage.getCredentials()
+        guard var credentials = credentials else {
             completion(.failure(.credentialsNotSaved))
             return
         }

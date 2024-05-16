@@ -20,7 +20,7 @@ class DeadlineNS {
         
         let credentials = KeychainStorage.getCredentials()!
 
-        let base64LoginString = await LoginService.getBase64LoginString(username: credentials.email, password: credentials.password)
+        let base64LoginString = await LoginService.getBase64LoginString(username: credentials.username, firm: credentials.firm, password: credentials.password)
 
         
         
@@ -31,12 +31,12 @@ class DeadlineNS {
 
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        //request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
+        request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
 
-        let token = Authentication.token
-        print("TOKEN IN DEADLINES: ", token)
-        request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
-        
+//        let token = Authentication.token
+//        print("TOKEN IN DEADLINES: ", token)
+//        request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+//
         
         let (data, response) = try await URLSession.shared.data(for: request)
 

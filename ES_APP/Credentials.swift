@@ -10,7 +10,7 @@ import Foundation
 // Codable Keyword:
 // automatic conformance that satisfies all of the protocol requirements from Encodable and Decodable
 struct Credentials: Codable {
-    var email: String = ""
+    var username: String = ""
     var password: String = ""
     var firm: String = ""
     
@@ -28,5 +28,16 @@ struct Credentials: Codable {
         let jsonData = credentialsString.data(using: .utf8)
         // swiftlint:disable:next force_try
         return try! decoder.decode((Credentials.self), from: jsonData!)
+    }
+}
+
+
+class AuthManager {
+    static let shared = AuthManager() // Singleton instance
+
+    var token: String = ""
+
+    private init() {
+        // Private initializer to prevent creating instances other than the shared instance
     }
 }

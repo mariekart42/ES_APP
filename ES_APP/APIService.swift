@@ -30,7 +30,7 @@ class APIService {
     
     
     func getValue(from response: String, forKey key: String) -> String? {
-        print("----In get value: response: ", response)
+//        print("----In get value: response: ", response)
         guard let range = response.range(of: "\"\(key)\":\"") else { return nil }
         let start = range.upperBound
         let remaining = response[start...]
@@ -43,107 +43,60 @@ class APIService {
                completion: @escaping (Result<Bool, Authentication.AuthenticationError>) -> Void) {
         //code inside the Task block is asynchronous
         Task {
-            wrongCredentials = true
-                
+//            var loginViewModel = LoginViewModel()
+            var wrongCredentials:Bool = true // Assuming this variable is defined elsewhere
+            
             let firm = credentials.firm
-            let user = credentials.email
+            let user = credentials.username
             let password = credentials.password
-            
-//            let lol_endpoint = "https://ipm02.eisenfuhr.com/Eisenf%C3%BChrSpeiser/api/auth"
-//            let lol = URL(string: lol_endpoint)!
-//
-//
-            
-            
-            
-            // Create URL
-            let authURLString = "https://ipm02.eisenfuhr.com/Eisenf%C3%BChrSpeiser/api/auth"
+
+            let authURLString = "https://ipm02.eisenfuhr.com/api/auth"
             guard let authURL = URL(string: authURLString) else {
                 print("Error: Invalid URL")
                 return
             }
 
-            // Create URL request
-            var authRequest = URLRequest(url: authURL)
-            authRequest.httpMethod = "GET"
-
-            // Create URLSession task
-            let task = URLSession.shared.dataTask(with: authRequest) { data, response, error in
-                // Check for errors
-                if let error = error {
-                    print("Error: \(error)")
-                    return
-                }
+            do {
+//                var wrongCredentials:Bool = true
+                let pop = try await LoginService.getBase64LoginString(username: credentials.username, firm: credentials.firm, password: credentials.password)
                 
-                // Check if data is received
-                guard let data = data else {
-                    print("Error: No data received")
-                    return
-                }
+                var authRequest = URLRequest(url: authURL)
+                authRequest.setValue("Basic \(pop)", forHTTPHeaderField: "Authorization")
+                authRequest.httpMethod = "GET"
                 
-                // Convert data to string
-                if let authResponse = String(data: data, encoding: .utf8) {
-                    // Parse response to extract token
-                    print("___ auth response: ", authResponse)
-                    if let token = self.getValue(from: authResponse, forKey: "Message") {
-                        print("Token: \(token)")
+                let (data, response) = try await URLSession.shared.data(for: authRequest)
+                if let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 {
+                    if let responseDataString = String(data: data, encoding: .utf8) {
+                        
+                        if let token = self.getValue(from: responseDataString, forKey: "Message") {
+//                            print("Token: \(token)")
+//                            AuthManager.shared.token = token
+                            Authentication.updateToken(newToken: token)
+//                            credentials.setToken(tokenUpdate: token)
+                            
+//                            loginViewModel.credentials.token = token// Extract token from 'data'
+//                            print("print after receiving token: \(AuthManager.shared.token)")
+                            wrongCredentials = false // Corrected to assign a Boolean value
+                        } else {
+                            print("Error: Unable to retrieve token")
+                        }
                     } else {
-                        print("Error: Unable to retrieve token from response")
+                        print("Error: Unable to retrieve responseDataString")
                     }
                 } else {
-                    print("Error: Unable to decode response data")
+                    // Authentication failed
+                    print("Error: Authentication failed")
                 }
+            } catch {
+                print("Error: \(error)")
             }
-
-            // Resume URLSession task
-            task.resume()
             
-            
-            
-            
-            
-//            var request = URLRequest(url: lol)
-//            let pop = await LoginService.getBase64LoginString(username: credentials.email, password: credentials.password)
-//            request.setValue("Basic \(pop)", forHTTPHeaderField: "Authorization")
-//            request.httpMethod = "GET"
-//            // Assuming this code is inside a method or closure
-//            let task = URLSession.shared.dataTask(with: request) { data, response, error in
-//                guard let data = data else {
-//                    print("Error: No data received")
-//                    return
-//                }
-//
-//                // Print the entire response object
-//                print("Response: \(response)")
-//
-//                // Attempt to decode the response data into a string
-//                if let authResponse = String(data: data, encoding: .utf8) {
-//                    print("Auth response: \(authResponse)")
-//
-//                    // Attempt to extract token from the response
-//                    if let token = self.getValue(from: authResponse, forKey: "Message") {
-//                        print("Token: \(token)")
-//
-//                        // Update token and make another request
-//                        Authentication.updateToken(newToken: token)
-//                        let listURL = "\(lol)/List?context=GS.FRMN&filter=NONE.PKEYEXACT&value=\(firm)"
-//                        var newRequest = URLRequest(url: URL(string: listURL)!)
-//                        newRequest.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
-//
-//                        let listTask = URLSession.shared.dataTask(with: newRequest) { data, response, error in
-//                            // Handle response...
-//                        }
-//                        listTask.resume()
-//                    } else {
-//                        print("Error: Unable to retrieve token")
-//                    }
-//                } else {
-//                    print("Error: Unable to decode auth response")
-//                }
+//            // Handle completion based on the result
+//            if wrongCredentials {
+//                completion(.failure(.wrongCredentials))
+//            } else {
+//                completion(.success(true))
 //            }
-//            task.resume()
-
-            
             
             
             
@@ -154,7 +107,7 @@ class APIService {
             var request = URLRequest(url: url)
 
             // build login string with username and password -> Authorization: Basic email:password
-            let base64LoginString = await LoginService.getBase64LoginString(username: credentials.email, password: credentials.password)
+            let base64LoginString = await LoginService.getBase64LoginString(username: credentials.username, firm: credentials.firm, password: credentials.password)
             request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
             request.httpMethod = "GET"
 

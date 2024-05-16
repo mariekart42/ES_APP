@@ -44,7 +44,7 @@ struct LoginView: View {
                     HStack(spacing: 20) {
                         Image(systemName: "person.circle.fill")
                             .foregroundColor(.primary)
-                        TextField("Benutzername", text: $loginViewModel.credentials.email)
+                        TextField("Benutzername", text: $loginViewModel.credentials.username)
                             .keyboardType(.emailAddress)
                     }
                     .textFieldStyle(DefaultTextFieldStyle())

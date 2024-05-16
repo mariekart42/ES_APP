@@ -15,14 +15,13 @@ class LoginViewModel: ObservableObject {
     
     
     var loginDisabled: Bool {
-        credentials.email.isEmpty || credentials.password.isEmpty || credentials.firm.isEmpty
+        credentials.username.isEmpty || credentials.password.isEmpty || credentials.firm.isEmpty
     }
 //    Validates the Data of the login by checking via API call
     // @escaping means, instance of function outlives scope of function -> runns in memory
     // [common thing for Network calls cause they can take a long time]
     func login(completion: @escaping (Bool) -> Void) {
         showProgressView = true
-        print("---- IN LOGIN: credentials: ", credentials)
         do {
             APIService.shared.login(credentials: credentials) {
                 [unowned self] (result:Result<Bool, Authentication.AuthenticationError>) in
