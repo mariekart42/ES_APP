@@ -16,12 +16,6 @@ struct LoginView: View {
     @State var password: String = ""
     
     @Environment(\.colorScheme) var colorScheme
-    
-//    init() {
-//            print("here: " + loginViewModel.credentials.email)
-//        print("here: " + loginViewModel.credentials.password)
-//        print("here: " + loginViewModel.credentials.firm)
-//        }
 
     var body: some View {
         // swiftlint:disable closure_body_length
