@@ -1,9 +1,3 @@
-//
-//  TimelineViewData.swift
-//  My IP Port
-//
-//  Created by Dominik Remo on 03.07.22.
-//
 
 import Foundation
 import UIKit

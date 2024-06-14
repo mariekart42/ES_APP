@@ -1,9 +1,3 @@
-//
-//  FavoriteSymbol.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 16.06.22.
-//
 
 import SwiftUI
 
@@ -27,11 +21,3 @@ struct FavoriteSymbol: View {
     }
 }
 
-/*
-struct FavoriteSymbol_Previews: PreviewProvider {
-    private static let model: Model = MockModel()
-    static var previews: some View {
-        FavoriteSymbol().environmentObject(FileViewModel(model)).environmentObject(FavoritesViewModel())
-    }
-}
-*/

@@ -1,9 +1,3 @@
-//
-//  FileViewModel.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 01.06.22.
-//
 
 import Foundation
 import SwiftUI
@@ -113,14 +107,6 @@ import CoreData
         // more filters
         return toReturn
     }
-    /*
-     if let stringArray = file.inventors.allObjects as? [StringCD] {
-     stringArray.forEach {
-     inventor in
-     inventorsArray.append(inventor.name.trimmingCharacters(in: .whitespacesAndNewlines))
-     }
-     }
-     */
     
     private func familyProductFilter(families: [FileFamily]) -> [FileFamily] {
         if filterByProduct {

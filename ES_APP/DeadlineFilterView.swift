@@ -1,9 +1,3 @@
-//
-//  DeadlineFilterView.swift
-//  My IP Port
-//
-//  Created by Dominik Remo on 17.07.22.
-//
 
 import SwiftUI
 

@@ -1,9 +1,4 @@
-//
-//  DeadlineParsing.swift
-//  My IP Port
-//
-//  Created by Henri Petuker on 6/28/22.
-//
+
 //  Structs used to parse the raw JSON response and to select the relevant
 //  attributes for the Deadline objects.
 

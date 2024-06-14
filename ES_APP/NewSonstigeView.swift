@@ -1,9 +1,3 @@
-//
-//  NewSonstigeView.swift
-//  My IP Port
-//
-//  Created by Johannes Fuest on 18.07.22.
-//
 
 import Foundation
 import SwiftUI

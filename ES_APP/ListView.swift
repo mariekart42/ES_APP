@@ -1,12 +1,5 @@
-//
-//  ListView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 31.05.22.
-//
 
 import SwiftUI
-
 
 struct ListView: View {
     @EnvironmentObject private var fileViewModel: FileViewModel
@@ -129,17 +122,3 @@ struct SectionPlaned: View {
         }
     }
 }
-
-/*
- struct ListView_Previews: PreviewProvider {
- private static let model: Model = MockModel()
- 
- static var previews: some View {
- ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
- ListView(searchResults: model.fileFamilies).environmentObject(FileViewModel(model))
- .environmentObject(FavoritesViewModel())
- .preferredColorScheme(colorScheme)
- }
- }
- }
- */

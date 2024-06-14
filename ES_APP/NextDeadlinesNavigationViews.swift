@@ -1,9 +1,3 @@
-//
-//  NextDeadlinesNavigationViews.swift
-//  My IP Port
-//
-//  Created by Johannes Fuest on 10.07.22.
-//
 
 import Foundation
 import SwiftUI
@@ -63,7 +57,6 @@ struct NextDeadlinesNavigationView: View {
                     }
             }
         }
-        //TO DO: Farbliche Markierung, Übergabe an nächsten Screen
     }
 }
 

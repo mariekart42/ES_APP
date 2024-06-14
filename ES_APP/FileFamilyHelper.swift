@@ -1,9 +1,4 @@
-//
-//  FileFamilyHelper.swift
-//  My IP Port
-//
-//  Created by Henri Petuker on 6/29/22.
-//
+
 //  This struct is used to temporarily generate FileFamilyHelper objects during
 //  the function buildFileFamiliyHelpers in DataViewModel.
 

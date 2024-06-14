@@ -1,9 +1,3 @@
-//
-//  FileView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 31.05.22.
-//
 
 import SwiftUI
 
@@ -405,16 +399,3 @@ struct FileViewProductClassOther: View {
         self.productClassesArray = productClassesArray
     }
 }
-
-/*
- struct File_Previews: PreviewProvider {
- private static let model: Model = MockModel()
- 
- static var previews: some View {
- ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
- FileView(model.files.first!, FileViewModel(model))
- .preferredColorScheme(colorScheme)
- }
- }
- }
- }*/

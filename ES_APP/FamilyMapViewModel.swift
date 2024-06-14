@@ -1,9 +1,4 @@
-//
-//  FamilyMapViewModel.swift
-//  My IP Port
-//
-//  Created by Maximilian Hau on 07.07.22.
-//
+
 
 import Foundation
 import SwiftUI
@@ -90,7 +85,6 @@ struct FamilyMapViewModel {
                 javaScriptCodeOption = javaScriptCodeOptionDay
             }
             
-            
             return "\(javaScriptCodePart1) \(javaStringCountries) \(javaScriptCodePart2) \(javaScriptCodeOption) \(javaScriptCodePart3)"
         }
     
@@ -134,5 +128,4 @@ struct FamilyMapViewModel {
         }
         return status
     }
-
 }

@@ -1,9 +1,4 @@
-//
-//  Color+toHex.swift
-//  My IP Port
-//
-//  Created by Maximilian Hau on 13.07.22.
-//
+
 
 import Foundation
 import SwiftUI

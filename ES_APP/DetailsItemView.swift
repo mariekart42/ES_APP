@@ -1,12 +1,5 @@
-//
-//  DetailsItemView.swift
-//  My IP Port
-//
-//  Created by Maximilian Hau on 11.06.22.
-//
 
 import SwiftUI
-
 
 struct DetailsItemView: View {
     @EnvironmentObject var fileViewModel: FileViewModel
@@ -47,16 +40,3 @@ struct DetailsItemView: View {
         self.file = file
     }
 }
- 
-/*
-struct DetailsItemView_Previews: PreviewProvider {
-    private static let model: Model = MockModel()
-    
-    static var previews: some View {
-        ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
-            DetailsItemView(model.files.first!)
-                .preferredColorScheme(colorScheme)
-        }
-    }
-}
-*/

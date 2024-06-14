@@ -1,9 +1,3 @@
-//
-//  StateFilterView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 06.07.22.
-//
 
 import SwiftUI
 

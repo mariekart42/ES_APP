@@ -1,9 +1,3 @@
-//
-//  LoginView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 31.05.22.
-//
 
 import SwiftUI
 import Charts
@@ -32,7 +26,7 @@ struct LoginView: View {
                 Text("My IP Port")
                     .font(.largeTitle)
                     .bold()
-                    .foregroundColor(.red)
+                    .foregroundColor(.black)
                     .padding(20)
                 VStack {
                     HStack(spacing: 20) {
@@ -82,8 +76,6 @@ struct LoginView: View {
                         if success {
                             authentication.updateValidation(success: success)
                             loginViewModel.saveCredentials()
-                        } else {
-                            print("DEBUG: Button call with login failed")
                         }
                     }
                 }) {
@@ -141,7 +133,7 @@ struct LoginView: View {
                                  secondaryButton: .cancel())
                 } else {
                     
-                    return Alert(title: Text("Login fehlgeschlagen debugg 1"), message: Text(error.localizedDescription))
+                    return Alert(title: Text("Login fehlgeschlagen"), message: Text(error.localizedDescription))
                 }
             }
         }

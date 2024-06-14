@@ -1,9 +1,3 @@
-//
-//  FamilyCell.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 16.06.22.
-//
 
 import SwiftUI
 
@@ -76,7 +70,6 @@ struct FamilyCell: View {
                     } else {
                         Text("")
                     }
-                    //.foregroundColor(favoritesViewModel.isFavorite(family) ? .blue : .primary)
                 }
                 Spacer()
                 // Show registration date if set
@@ -98,66 +91,7 @@ struct FamilyCell: View {
             .stroke(Color(favoritesViewModel.isFavorite(family) ? UIColor.init(Color("HighlightText")) : UIColor.init(.clear)), lineWidth: 4))
         
     }
-    
-    /*
-    var body: some View {
-        VStack {
-            HStack{
-                Text(family.title)
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .multilineTextAlignment(.leading)
-                    .lineLimit(2)
-                    .padding(.bottom, 3)
-                Spacer()
-            }
-            //.foregroundColor(favoritesViewModel.isFavorite(family) ? .orange : .primary)
-            HStack(spacing: 7) {
-                Image(systemName: "folder")
-                Text(clientSym.isEmpty ? String(family.id.prefix(7)) : clientSym)
-                    .italic()
-                    .fontWeight(.light)
-                    .foregroundColor(.secondary)
-            }
-            Divider()
-            
-            HStack {
-                // List countries of the patent family
-                HStack(spacing: 3) {
-                    //Image(systemName: "globe.europe.africa")
-                    if let countries = family.countries.allObjects as? [StringCD] {
-                        let countryFlagString = fileViewModel.flag(countries: countries)
-                        Text(countryFlagString)
-                            .font(.footnote)
-                            //.frame(width: 130, height: 45, alignment: .leading)
-                                .lineLimit(1)
-                    } else {
-                        Text("")
-                    }
-                    //.foregroundColor(favoritesViewModel.isFavorite(family) ? .blue : .primary)
-                }
-                Spacer()
-                // Show registration date if set
-                HStack(spacing: 3) {
-                    Image(systemName: "calendar")
-                    if family.registrationDate.timeIntervalSinceReferenceDate != 0 {
-                        Text(fileViewModel.getDate(date: family.registrationDate))
-                    } else {
-                        Text("-")
-                    }
-                }
-            }.padding(.top, 4)
-        }
-        .padding()
-        .overlay(RoundedRectangle(cornerRadius: 16)
-        .stroke(Color(favoritesViewModel.isFavorite(family) ? UIColor.systemOrange : UIColor.systemGray6), lineWidth: 4))
-        .background(RoundedRectangle(cornerRadius: 16)
-            .foregroundColor(Color(UIColor.systemBackground))
-            .shadow(color: Color.primary.opacity(0.25), radius: 6, x: 6, y: 6)
-        )
-        // .padding(.horizontal, 15)
-    }
-    */
+
     init(_ familyF: FileFamily) {
         family = familyF
         if let files = familyF.associatedFiles.allObjects as? [File] {
@@ -171,16 +105,3 @@ struct FamilyCell: View {
         }
     }
 }
-
-/*
-struct FamilyCell_Previews: PreviewProvider {
-    private static let model: Model = MockModel()
-    static var previews: some View {
-        ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
-            FamilyCell(model.fileFamilies.first!)
-                .environmentObject(FileViewModel(model)).environmentObject(FavoritesViewModel())
-                .preferredColorScheme(colorScheme)
-        }
-    }
-}
-*/

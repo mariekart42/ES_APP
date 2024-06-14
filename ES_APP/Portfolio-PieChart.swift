@@ -1,9 +1,3 @@
-//
-//  Portfolio-PieChart.swift
-//  My IP Port
-//
-//  Created by Dominik Remo on 13.06.22.
-//
 
 import Foundation
 import SwiftUI
@@ -161,16 +155,3 @@ struct DashboardPieChart: UIViewRepresentable {
         return centerAttributedText
     }
 }
-
-/*
-struct PieChart_Previews: PreviewProvider {
-    private static let model: Model = MockModel()
-
-    static var previews: some View {
-        ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
-            DashboardPieChart(viewModel: FileViewModel(model))
-                .preferredColorScheme(colorScheme)
-        }
-    }
-}
- */

@@ -1,9 +1,4 @@
-//
-//  FamilySearchView.swift
-//  My IP Port
-//
-//  Created by Henri Petuker on 6/11/22.
-//
+
 //  This view displays the list of a specific file familiy type. It provides a search bar,
 //  access to the family filter sheet and the option to mark families as favorites.
 
@@ -77,15 +72,3 @@ struct FamilySearchView: View {
     }
 }
 
-/*
-struct FamilySearchView_Previews: PreviewProvider {
-    private static let model: Model = MockModel()
-    
-    static var previews: some View {
-        ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
-            FamilySearchView( model.fileFamilies, "").environmentObject(model).environmentObject(FileViewModel(model))
-                .preferredColorScheme(colorScheme)
-        }
-    }
-}
-*/

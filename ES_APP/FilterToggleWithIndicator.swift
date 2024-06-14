@@ -1,9 +1,3 @@
-//
-//  FilterToggleWithIndicator.swift
-//  My IP Port
-//
-//  Created by Dominik Remo on 05.07.22.
-//
 
 import SwiftUI
 

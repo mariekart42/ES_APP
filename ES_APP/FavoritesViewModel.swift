@@ -1,9 +1,3 @@
-//
-//  FavoritesViewModel.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 13.06.22.
-//
 
 import Foundation
 import SwiftUI

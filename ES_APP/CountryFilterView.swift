@@ -1,9 +1,3 @@
-//
-//  CountryFilterView.swift
-//  My IP Port
-//
-//  Created by user219399 on 7/2/22.
-//
 
 import SwiftUI
 
@@ -42,10 +36,3 @@ struct CountryFilterView: View {
     }
 }
 
-/*
- struct CountryFilterView_Previews: PreviewProvider {
- static var previews: some View {
- CountryFilterView()
- }
- }
- */

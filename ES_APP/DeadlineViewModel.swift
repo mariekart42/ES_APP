@@ -1,9 +1,4 @@
-//
-//  DeadlineVM.swift
-//  My IP Port
-//
-//  Created by Dominik Remo on 07.06.22.
-//
+
 
 import Foundation
 import CoreData

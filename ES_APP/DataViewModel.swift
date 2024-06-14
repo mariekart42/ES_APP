@@ -1,12 +1,6 @@
-//
-//  DataViewModel.swift
-//  My IP Port
-//
-//  Created by Henri Petuker on 6/28/22.
-//
+
 //  View Model that collects the data from the Eisenführ Speiser Workflow
 //  Service API and updates the persistent data.
-
 
 import Foundation
 import CoreData
@@ -101,7 +95,6 @@ import SwiftUI
             }
             try context.save()
         } catch {
-            // Update Error Handling
             print("IN DATA_VIEW_MODEL: Error while trying to fetch and store files: \(error.localizedDescription)")
         }
     }
@@ -130,7 +123,6 @@ import SwiftUI
             }
             try context.save()
         } catch {
-            // Update Error Handling
             print("Error while trying to fetch and store Deadlines: \(error.localizedDescription)")
         }
     }
@@ -163,7 +155,6 @@ import SwiftUI
                 try context.save()
             }
         } catch {
-            // Update Error Handling
             print("Error while saving File Families: \(error.localizedDescription)")
         }
     }
@@ -236,7 +227,6 @@ import SwiftUI
         do {
             try context.execute(deleteRequest)
         } catch {
-            // Update Error Handling
             print("Error while deleting all Files from storage: \(error.localizedDescription)")
         }
     }
@@ -249,7 +239,6 @@ import SwiftUI
         do {
             try context.execute(deleteRequest)
         } catch {
-            // Update Error Handling
             print("Error while deleting all Deadlines from storage: \(error.localizedDescription)")
         }
     }
@@ -262,7 +251,6 @@ import SwiftUI
         do {
             try context.execute(deleteRequest)
         } catch {
-            // Update Error Handling
             print("Error while deleting all FileFamilies from storage: \(error.localizedDescription)")
         }
     }

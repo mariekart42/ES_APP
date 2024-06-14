@@ -1,9 +1,3 @@
-//
-//  User.swift
-//  My IP Port
-//
-//  Created by Maximilian Hau on 29.06.22.
-//
 
 import Foundation
 

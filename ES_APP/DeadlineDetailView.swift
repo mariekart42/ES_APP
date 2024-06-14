@@ -1,9 +1,4 @@
-//
-//  DeadlineDetailView.swift
-//  My IP Port
-//
-//  Created by Hochstrat, Selina on 09.07.22.
-//
+
 import SwiftUI
 
 struct DeadlineDetailView: View {

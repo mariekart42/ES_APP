@@ -1,9 +1,3 @@
-//
-//  DetailsList.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 29.06.22.
-//
 
 import SwiftUI
 
@@ -69,13 +63,3 @@ struct DetailsList: View {
         self.text = text
     }
 }
-/*
- struct DetailsList_Previews: PreviewProvider {
- private static let model: Model = MockModel()
- static var previews: some View {
- ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
- DetailsList(model.fileFamilies.first!).environmentObject(FileViewModel(model))
- .preferredColorScheme(colorScheme)
- }
- }
- }*/

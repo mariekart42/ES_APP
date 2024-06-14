@@ -1,9 +1,3 @@
-//
-//  APIService.swift
-//  My IP Port
-//
-//  Created by Maximilian Hau on 29.06.22.
-//
 
 import Foundation
 
@@ -18,7 +12,6 @@ import Foundation
 enum APIError: Error {
     case genericError(String)
 }
-
 
 
 class APIService {
@@ -79,28 +72,28 @@ class APIService {
                             wrongCredentials = false // Corrected to assign a Boolean value
                         } else {
                             print("Error: Unable to retrieve token")
+                            self.wrongCredentials = true
                         }
                     } else {
                         print("Error: Unable to retrieve responseDataString")
+                        self.wrongCredentials = true
                     }
                 } else {
                     // Authentication failed
                     print("Error: Authentication failed")
+                    self.wrongCredentials = true
                 }
             } catch {
                 print("Error: \(error)")
+                self.wrongCredentials = true
             }
             
-//            // Handle completion based on the result
-//            if wrongCredentials {
-//                completion(.failure(.wrongCredentials))
-//            } else {
-//                completion(.success(true))
-//            }
-            
-            
-            
-            
+            // Handle completion based on the result
+            if wrongCredentials {
+                completion(.failure(.invalidCredentials))
+                return
+            } 
+
 
             let endpoint = "https://ipm02.eisenfuhr.com/Eisenf%C3%BChrSpeiser/"
             let url = URL(string: endpoint)!
@@ -128,6 +121,7 @@ class APIService {
             } catch {
                 print("DEBUG: catch error in NSURLConnection: ", error)
                 print(error)
+                self.wrongCredentials = true
             }
             DispatchQueue.main.asyncAfter(deadline: .now()) {
                 if self.wrongCredentials {

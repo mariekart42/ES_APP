@@ -1,9 +1,3 @@
-//
-//  FilterView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 12.06.22.
-//
 
 import SwiftUI
 
@@ -101,16 +95,3 @@ struct CheckToggleStyle2: ToggleStyle {
         .buttonStyle(PlainButtonStyle())
     }
 }
-
-/*
- struct FilterView_Previews: PreviewProvider {
- private static let model: Model = MockModel()
- 
- static var previews: some View {
- ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
- FilterView().environmentObject(FileViewModel(model))
- .preferredColorScheme(colorScheme)
- }
- }
- }
- */

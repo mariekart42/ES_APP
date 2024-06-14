@@ -1,9 +1,3 @@
-//
-//  LoadingView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 31.05.22.
-//
 
 import SwiftUI
 
@@ -53,15 +47,3 @@ struct LoadingView: View {
         }
     }
 }
-
-
-/*
-struct LoadingView_Previews: PreviewProvider {
-    static var previews: some View {
-        ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
-            LoadingView(didLoad: .constant(true))
-                .preferredColorScheme(colorScheme)
-        }
-    }
-}
-*/

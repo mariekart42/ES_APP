@@ -1,9 +1,3 @@
-//
-//  PortfolioView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 12.06.22.
-//
 
 import SwiftUI
 
@@ -83,16 +77,3 @@ struct PortfolioView: View {
         self.resetNavigation = resetNavigation
     }
 }
-
-/*
- struct PortfolioView_Previews: PreviewProvider {
- private static let model: Model = MockModel()
- 
- static var previews: some View {
- ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
- PortfolioView(model, resetNavigation: UUID()).environmentObject(model)
- .preferredColorScheme(colorScheme)
- }
- }
- }
- */

@@ -1,9 +1,3 @@
-//
-//  FilterFamiliesView.swift
-//  My IP Port
-//
-//  Created by Maximilian Hau on 06.07.22.
-//
 
 import SwiftUI
 

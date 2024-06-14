@@ -1,12 +1,5 @@
-//
-//  FamilyView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 31.05.22.
-//
 
 import SwiftUI
-
 
 struct FamilyView: View {
     @EnvironmentObject private var fileViewModel: FileViewModel
@@ -59,16 +52,3 @@ struct FamilyView: View {
         family = familyF
     }
 }
-
-/*
-struct FamilyView_Previews: PreviewProvider {
-    private static let model: Model = MockModel()
-    
-    static var previews: some View {
-        ForEach(ColorScheme.allCases, id: \.hashValue) { colorScheme in
-            FamilyView(model.fileFamilies.first!).environmentObject(FavoritesViewModel()).environmentObject(FileViewModel(model))
-                .preferredColorScheme(colorScheme)
-        }
-    }
-}
-*/

@@ -1,9 +1,3 @@
-//
-//  FamilyTimelineView.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 31.05.22.
-//
 
 import SwiftUI
 

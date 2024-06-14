@@ -1,9 +1,3 @@
-//
-//  StarsView.swift
-//  My IP Port
-//
-//  Created by Hochstrat, Selina on 01.07.22.
-//
 
 import SwiftUI
 

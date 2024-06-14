@@ -1,9 +1,3 @@
-//
-//  RatingViewModel.swift
-//  My IP Port
-//
-//  Created by Hochstrat, Selina on 07.07.22.
-//
 
 import Foundation
 import SwiftUI

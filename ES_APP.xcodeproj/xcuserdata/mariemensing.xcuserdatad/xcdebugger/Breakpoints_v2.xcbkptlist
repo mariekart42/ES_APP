@@ -14,8 +14,8 @@
             filePath = "ES_APP/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "login(credentials:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,10 +30,10 @@
             filePath = "ES_APP/LoginViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
-            landmarkName = "LoginViewModel"
-            landmarkType = "3">
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -46,8 +46,8 @@
             filePath = "ES_APP/LoginViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
             landmarkName = "LoginViewModel"
             landmarkType = "3">
          </BreakpointContent>
@@ -62,10 +62,10 @@
             filePath = "ES_APP/LoginViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "LoginViewModel"
-            landmarkType = "3">
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "credentials"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -78,8 +78,8 @@
             filePath = "ES_APP/FileNS.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "fetchLogo()"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "ES_APP/DataViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "updateFiles(context:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "ES_APP/FileNS.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "fetchFileData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +126,8 @@
             filePath = "ES_APP/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "login(credentials:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -142,8 +142,8 @@
             filePath = "ES_APP/APIService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "login(credentials:completion:)"
             landmarkType = "7">
          </BreakpointContent>

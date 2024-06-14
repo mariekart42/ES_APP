@@ -1,9 +1,4 @@
-//
-//  String+Trunc.swift
-//  My IP Port
-//
-//  Created by Maximilian Hau on 11.06.22.
-//
+
 
 import Foundation
 

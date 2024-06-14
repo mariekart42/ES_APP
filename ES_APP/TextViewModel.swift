@@ -1,9 +1,3 @@
-//
-//  TextViewModel.swift
-//  My IP Port
-//
-//  Created by Julian Heiß on 07.07.22.
-//
 
 import Foundation
 import SwiftUI

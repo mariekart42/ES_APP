@@ -81,7 +81,6 @@
 		595A85D32B483B8700F9240B /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A85CD2B483B8700F9240B /* DetailsView.swift */; };
 		595A85D42B483B8700F9240B /* DetailsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A85CE2B483B8700F9240B /* DetailsItemView.swift */; };
 		595A85DA2B483BBC00F9240B /* FileNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A85D52B483BBB00F9240B /* FileNS.swift */; };
-		595A85DB2B483BBC00F9240B /* API - Login Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A85D62B483BBB00F9240B /* API - Login Constants.swift */; };
 		595A85DC2B483BBC00F9240B /* DeadlineNS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A85D72B483BBC00F9240B /* DeadlineNS.swift */; };
 		595A85DD2B483BBC00F9240B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A85D82B483BBC00F9240B /* NetworkService.swift */; };
 		595A85DE2B483BBC00F9240B /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595A85D92B483BBC00F9240B /* LoginService.swift */; };
@@ -190,7 +189,6 @@
 		595A85CD2B483B8700F9240B /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		595A85CE2B483B8700F9240B /* DetailsItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsItemView.swift; sourceTree = "<group>"; };
 		595A85D52B483BBB00F9240B /* FileNS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNS.swift; sourceTree = "<group>"; };
-		595A85D62B483BBB00F9240B /* API - Login Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API - Login Constants.swift"; sourceTree = "<group>"; };
 		595A85D72B483BBC00F9240B /* DeadlineNS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeadlineNS.swift; sourceTree = "<group>"; };
 		595A85D82B483BBC00F9240B /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		595A85D92B483BBC00F9240B /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
@@ -328,7 +326,6 @@
 				595A85F92B483D7900F9240B /* KeychainStorage.swift */,
 				595A85F42B483C8600F9240B /* FileParsing.swift */,
 				595A85C72B483B6200F9240B /* Credentials.swift */,
-				595A85D62B483BBB00F9240B /* API - Login Constants.swift */,
 				595A85D72B483BBC00F9240B /* DeadlineNS.swift */,
 				595A85D52B483BBB00F9240B /* FileNS.swift */,
 				595A85D92B483BBC00F9240B /* LoginService.swift */,
@@ -471,7 +468,6 @@
 				595A86072B483E4A00F9240B /* Timeline.swift in Sources */,
 				595A85F22B483C5B00F9240B /* FileFamilyHelper.swift in Sources */,
 				595A85742B483A7A00F9240B /* DocumentViewModel.swift in Sources */,
-				595A85DB2B483BBC00F9240B /* API - Login Constants.swift in Sources */,
 				595A85D32B483B8700F9240B /* DetailsView.swift in Sources */,
 				595A857F2B483A9200F9240B /* LoginViewModel.swift in Sources */,
 				595A85F02B483BFC00F9240B /* APIService.swift in Sources */,
